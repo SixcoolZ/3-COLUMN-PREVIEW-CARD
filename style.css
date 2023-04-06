@@ -10,6 +10,14 @@
 body{
     min-height: 100vh;
 }
+.sr-only{
+    position:absolute ;
+    left: -10000px;
+    width: 1px;
+    height:px ;
+    top: auto;
+    overflow: hidden;
+}
 .row{
     display: grid;
 	grid-template-columns: 310px 310px 310px;
