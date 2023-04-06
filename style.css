@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.row{
+    display: grid;
+	grid-template-columns: 310px 310px 310px;
+	text-align: start;
+    place-content: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 4rem;
+}
+.column-left{
+    padding: 3rem;
+    height: auto;
+    background: hsl(31, 77%, 52%);
+}
+.column-middle{
+    padding: 3rem;
+    height: auto;
+    background: hsl(184, 100%, 22%);
+}
+.column-right{
+    padding: 3rem;
+    height: auto;
+    background: hsl(179, 100%, 13%);
+}
+img{
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1.5rem;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 3.5rem;
+}
+.button-1{
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+.button-2{
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.button-3{
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+.button-1:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button-2:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button-3:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+@media (max-width: 700px){
+    main{
+        padding: 0 0.5rem;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 2rem 0;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
